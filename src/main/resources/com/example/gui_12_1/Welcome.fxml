@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gui_12_1.HelloController">
+   <children>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="10.0" layoutY="220.0">
+         <image>
+            <Image url="@../../../images/Person_image.png" />
+         </image>
+      </ImageView>
+      <ImageView>
+         <image>
+            <Image url="@../../../images/icon_m.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="197.0" layoutY="4.0">
+         <image>
+            <Image url="@../../../images/Logo.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutY="220.0" onMouseClicked="#switchToChat" prefHeight="80.0" prefWidth="400.0" text="JISOO">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></JFXButton>
+      <TextField layoutX="20.0" layoutY="115.0" prefHeight="40.0" prefWidth="360.0" promptText="Tìm kiếm" style="-fx-font-size: 16;" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="181.0" prefHeight="26.0" prefWidth="72.0" text="Tin nhắn" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="340.0" layoutY="115.0">
+         <image>
+            <Image url="@../../../images/icons8-search-50.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutY="529.0" prefHeight="70.0" prefWidth="400.0" style="-fx-background-color: white;" />
+   </children>
+</AnchorPane>

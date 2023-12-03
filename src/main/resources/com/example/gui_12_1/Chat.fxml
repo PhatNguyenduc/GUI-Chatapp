@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gui_12_1.HelloController">
+   <children>
+      <AnchorPane prefHeight="100.0" prefWidth="400.0" style="-fx-background-color: white; -fx-border-radius: 10;">
+         <children>
+            <JFXButton layoutY="31.0" onMouseClicked="#switchToMenu" prefHeight="38.0" prefWidth="35.0">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0">
+                     <image>
+                        <Image url="@../../../images/icons8-back-50.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="72.0" layoutY="30.0">
+               <image>
+                  <Image url="@../../../images/Person_image.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="120.0" layoutY="58.0" text="sooyaa__">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="92.0" layoutY="60.0">
+               <image>
+                  <Image url="@../../../images/icons8-online-26.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="120.0" layoutY="30.0" text="JISOO">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="171.0" layoutY="33.0">
+               <image>
+                  <Image url="@../../../images/icons8-verify-20.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="260.0" layoutY="31.0" onMouseClicked="#switchToCall" prefHeight="30.0" prefWidth="30.0">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0">
+                     <image>
+                        <Image url="@../../../images/icons8-call-50.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton layoutX="333.0" layoutY="31.0" onMouseClicked="#switchToCall" prefHeight="30.0" prefWidth="30.0">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0">
+                     <image>
+                        <Image url="@../../../images/icons8-video-call-50.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <Label layoutX="184.0" layoutY="107.0" opacity="0.59" text="Today" />
+      <Label alignment="CENTER" layoutX="20.0" layoutY="170.0" prefHeight="66.0" prefWidth="180.0" style="-fx-border-radius: 20px; -fx-background-radius: 20px; -fx-background-color: pink;" text="I buy 2 ticket's for Fantastic Beast for us" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="20.0" layoutY="300.0" prefHeight="40.0" prefWidth="118.0" style="-fx-border-radius: 20px; -fx-background-radius: 20px; -fx-background-color: pink;" text="Are you there ?" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="20.0" layoutY="251.0" prefHeight="40.0" prefWidth="162.0" style="-fx-border-radius: 20px; -fx-background-radius: 20px; -fx-background-color: pink;" text="Let's going out to night" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="200.0" layoutY="340.0" prefHeight="66.0" prefWidth="173.0" style="-fx-border-radius: 20px; -fx-background-radius: 20px; -fx-background-color: deepskyblue;" text="Okay, I will come to your home before going night" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="20.0" layoutY="406.0" prefHeight="40.0" prefWidth="118.0" style="-fx-border-radius: 20px; -fx-background-radius: 20px; -fx-background-color: pink;" text="See you baby" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="255.0" layoutY="446.0" prefHeight="38.0" prefWidth="118.0" style="-fx-border-radius: 20px; -fx-background-radius: 20px; -fx-background-color: deepskyblue;" text="Bye, see you" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutY="549.0" prefHeight="60.0" prefWidth="400.0" style="-fx-background-color: white;">
+         <children>
+            <JFXButton layoutX="14.0" layoutY="17.0" prefHeight="30.0" prefWidth="30.0">
+               <graphic>
+                  <ImageView>
+                     <image>
+                        <Image url="@../../../images/icons8-images-24.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <TextArea layoutX="79.0" layoutY="11.0" prefHeight="32.0" prefWidth="200.0" />
+            <JFXButton layoutX="288.0" layoutY="13.0" prefHeight="30.0" prefWidth="30.0">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0">
+                     <image>
+                        <Image url="@../../../images/icons8-send-30.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton layoutX="346.0" layoutY="13.0" prefHeight="30.0" prefWidth="30.0">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0">
+                     <image>
+                        <Image url="@../../../images/icons8-voice-24.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

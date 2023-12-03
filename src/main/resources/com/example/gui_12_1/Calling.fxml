@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane opacity="0.9" prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gui_12_1.HelloController">
+   <children>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="150.0" layoutY="113.0">
+         <image>
+            <Image url="@../../../images/Person_image.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="172.0" layoutY="227.0" text="JISOO" textFill="#fff7f7">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="161.0" layoutY="39.0" text="CALLING..." textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+      <ImageView layoutX="250.0" layoutY="437.0" onMouseClicked="#switchToChat">
+         <image>
+            <Image url="@../../../images/icons8-incoming-call-80.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="70.0" layoutY="437.0" onMouseClicked="#switchToChat">
+         <image>
+            <Image url="@../../../images/icons8-call-disconnected-80.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
